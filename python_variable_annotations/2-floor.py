@@ -2,8 +2,9 @@
 """
 Takes a float variable and returns the floor of it.
 """
+import math
 
 
 def floor(n: float) -> float:
     """Returns the floor of n"""
-    return (n // 1)
+    return (math.floor(n))
