@@ -3,7 +3,7 @@ echo "Write the name of the file"
 read FILENAME
 touch $FILENAME
 chmod +x $FILENAME
-vi $FILENAME
+emacs $FILENAME
 git add .
 echo "Write a commit message:"
 read COMMITMESSAGE
