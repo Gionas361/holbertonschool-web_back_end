@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Write the name of the file"
+read FILENAME
+touch $FILENAME
+chmod +x $FILENAME
+emacs $FILENAME
+git add .
+echo "Write a commit message:"
+read COMMITMESSAGE
+git commit -m "$COMMITMESSAGE"
+git push
