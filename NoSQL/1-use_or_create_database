@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 // creates and use a new databse
 use my_db
+=======
+#!/bin/bash
+use my_db
+>>>>>>> 24a91c36f65bc90db3bac061ba603e319272fa7d

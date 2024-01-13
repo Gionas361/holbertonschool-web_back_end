@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 // list all db
+=======
+#!/bin/bash
+>>>>>>> 24a91c36f65bc90db3bac061ba603e319272fa7d
 show dbs
