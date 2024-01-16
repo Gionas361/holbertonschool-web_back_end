@@ -8,4 +8,4 @@ export default function getNeighborhoodsList() {
   };
 }
 
-const res = (x) => ['SOMA', 'Union Square'] + (x);
+const getNeighborhoodsList = (x) => ['SOMA', 'Union Square'] + (x);
